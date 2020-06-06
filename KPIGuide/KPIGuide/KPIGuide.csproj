@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\K10\1.jpg" />
+    <None Remove="Images\K11\1.jpg" />
+    <None Remove="Images\K12\1.jpg" />
+    <None Remove="Images\K12\2.jpg" />
+    <None Remove="Images\K13\1.jpg" />
+    <None Remove="Images\K14\1.jpg" />
+    <None Remove="Images\K15\1.jpg" />
+    <None Remove="Images\K16\1.jpg" />
+    <None Remove="Images\K16\2.jpg" />
+    <None Remove="Images\K17\1.jpg" />
+    <None Remove="Images\K18\1.jpg" />
+    <None Remove="Images\K19\1.jpg" />
+    <None Remove="Images\K1\1.jpg" />
+    <None Remove="Images\K1\2.jpg" />
+    <None Remove="Images\K1\3.jpg" />
+    <None Remove="Images\K20\1.jpg" />
+    <None Remove="Images\K21\1.jpg" />
+    <None Remove="Images\K22\1.jpg" />
+    <None Remove="Images\K23\1.jpg" />
+    <None Remove="Images\K23\2.jpg" />
+    <None Remove="Images\K24\1.jpg" />
+    <None Remove="Images\K24\2.jpg" />
+    <None Remove="Images\K25\1.jpg" />
+    <None Remove="Images\K26\1.jpg" />
+    <None Remove="Images\K27\1.jpg" />
+    <None Remove="Images\K28\1.jpg" />
+    <None Remove="Images\K28\2.jpg" />
+    <None Remove="Images\K29\1.jpg" />
+    <None Remove="Images\K2\1.jpg" />
+    <None Remove="Images\K2\2.jpg" />
+    <None Remove="Images\K30\1.jpg" />
+    <None Remove="Images\K31\1.jpg" />
+    <None Remove="Images\K33\1.jpg" />
+    <None Remove="Images\K35\1.jpg" />
+    <None Remove="Images\K35\2.jpg" />
+    <None Remove="Images\K3\1.jpg" />
+    <None Remove="Images\K4\1.jpg" />
+    <None Remove="Images\K4\2.jpg" />
+    <None Remove="Images\K5\1.jpg" />
+    <None Remove="Images\K5\2.jpg" />
+    <None Remove="Images\K6\1.jpg" />
+    <None Remove="Images\K7\1.jpg" />
+    <None Remove="Images\K7\2.jpg" />
+    <None Remove="Images\K7\3.jpg" />
+    <None Remove="Images\K7\4.jpg" />
+    <None Remove="Images\K8\1.jpg" />
+    <None Remove="Images\K8\2.jpg" />
+    <None Remove="Images\K8\3.jpg" />
+    <None Remove="Images\K9\1.jpg" />
+    <None Remove="Images\K9\2.jpg" />
+    <None Remove="LibJsonResource.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\K10\1.jpg" />
+    <EmbeddedResource Include="Images\K11\1.jpg" />
+    <EmbeddedResource Include="Images\K12\1.jpg" />
+    <EmbeddedResource Include="Images\K12\2.jpg" />
+    <EmbeddedResource Include="Images\K13\1.jpg" />
+    <EmbeddedResource Include="Images\K14\1.jpg" />
+    <EmbeddedResource Include="Images\K15\1.jpg" />
+    <EmbeddedResource Include="Images\K16\1.jpg" />
+    <EmbeddedResource Include="Images\K16\2.jpg" />
+    <EmbeddedResource Include="Images\K17\1.jpg" />
+    <EmbeddedResource Include="Images\K18\1.jpg" />
+    <EmbeddedResource Include="Images\K19\1.jpg" />
+    <EmbeddedResource Include="Images\K1\1.jpg" />
+    <EmbeddedResource Include="Images\K1\2.jpg" />
+    <EmbeddedResource Include="Images\K1\3.jpg" />
+    <EmbeddedResource Include="Images\K20\1.jpg" />
+    <EmbeddedResource Include="Images\K21\1.jpg" />
+    <EmbeddedResource Include="Images\K22\1.jpg" />
+    <EmbeddedResource Include="Images\K23\1.jpg" />
+    <EmbeddedResource Include="Images\K23\2.jpg" />
+    <EmbeddedResource Include="Images\K24\1.jpg" />
+    <EmbeddedResource Include="Images\K24\2.jpg" />
+    <EmbeddedResource Include="Images\K25\1.jpg" />
+    <EmbeddedResource Include="Images\K26\1.jpg" />
+    <EmbeddedResource Include="Images\K27\1.jpg" />
+    <EmbeddedResource Include="Images\K28\1.jpg" />
+    <EmbeddedResource Include="Images\K28\2.jpg" />
+    <EmbeddedResource Include="Images\K29\1.jpg" />
+    <EmbeddedResource Include="Images\K2\1.jpg" />
+    <EmbeddedResource Include="Images\K2\2.jpg" />
+    <EmbeddedResource Include="Images\K30\1.jpg" />
+    <EmbeddedResource Include="Images\K31\1.jpg" />
+    <EmbeddedResource Include="Images\K33\1.jpg" />
+    <EmbeddedResource Include="Images\K35\1.jpg" />
+    <EmbeddedResource Include="Images\K35\2.jpg" />
+    <EmbeddedResource Include="Images\K4\1.jpg" />
+    <EmbeddedResource Include="Images\K4\2.jpg" />
+    <EmbeddedResource Include="Images\K5\1.jpg" />
+    <EmbeddedResource Include="Images\K5\2.jpg" />
+    <EmbeddedResource Include="Images\K6\1.jpg" />
+    <EmbeddedResource Include="Images\K7\1.jpg" />
+    <EmbeddedResource Include="Images\K7\2.jpg" />
+    <EmbeddedResource Include="Images\K7\3.jpg" />
+    <EmbeddedResource Include="Images\K7\4.jpg" />
+    <EmbeddedResource Include="Images\K8\1.jpg" />
+    <EmbeddedResource Include="Images\K8\2.jpg" />
+    <EmbeddedResource Include="Images\K8\3.jpg" />
+    <EmbeddedResource Include="Images\K9\1.jpg" />
+    <EmbeddedResource Include="Images\K9\2.jpg" />
+    <EmbeddedResource Include="LibJsonResource.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />  
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.6.0.726" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\K3\1.jpg" />
+  </ItemGroup>
+</Project>
