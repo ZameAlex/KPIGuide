@@ -4,11 +4,6 @@ Q:\Sister\KPIGuide\KPIGuide\KPIGuide\bin\Debug\netstandard2.0\ref\KPIGuide.dll
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\bin\Debug\netstandard2.0\KPIGuide.pdb
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\KPIGuide.csprojAssemblyReference.cache
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\App.xaml.g.cs
-Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
-Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\KPIGuide.AssemblyInfoInputs.cache
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\KPIGuide.AssemblyInfo.cs
 Q:\Sister\KPIGuide\KPIGuide\KPIGuide\obj\Debug\netstandard2.0\KPIGuide.dll

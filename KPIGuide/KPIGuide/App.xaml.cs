@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using KPIGuide.Services;
 using KPIGuide.Services.Implementation;
 using KPIGuide.Views;
+using Xamarin.Forms.Maps;
 
 namespace KPIGuide
 {
@@ -14,7 +15,7 @@ namespace KPIGuide
         {
             InitializeComponent();
             var csharpTab = new TabbedPage();
-            csharpTab.Children.Add(new MapPage(null,null,null) { Title = "Local" });
+            csharpTab.Children.Add(new MapPage(new GeocoderService(new Geocoder()), new PositionCalculatorService(), new PlacesDataStore(new ReadService())) { Title = "Local" });
             csharpTab.Children.Add(new Info { Title = "Download" });
             csharpTab.Children.Add(new About { Title = "Embedded" });
             MainPage = csharpTab;

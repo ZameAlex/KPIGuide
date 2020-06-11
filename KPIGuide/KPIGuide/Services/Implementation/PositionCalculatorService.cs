@@ -1,4 +1,5 @@
 ﻿using KPIGuide.Services.Interfaces;
+using Xamarin.Forms.Maps;
 using static System.Math;
 
 namespace KPIGuide.Services.Implementation
@@ -7,12 +8,11 @@ namespace KPIGuide.Services.Implementation
     {
         const double _delta = 0.000150;
 
-        public (double Latitude, double Longtitude) GetNewPosition((double Latitude, double Longtitude) position, double angle)
+        public Position GetNewPosition(Position position, double angle)
         {
             var deltaX = Cos((PI / 180) * angle);
             var deltaY = Sin((PI / 180) * angle);
-            var result = (Latitude: position.Latitude + deltaY * _delta,
-                Longtitude: position.Longtitude + deltaX * _delta);
+            var result = new Position(position.Latitude + deltaY * _delta, position.Longitude + deltaX * _delta);
             return result;
 
         }

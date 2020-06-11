@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Essentials;
 
 namespace KPIGuide.Droid
 {
@@ -23,6 +24,7 @@ namespace KPIGuide.Droid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Compass.Start(SensorSpeed.UI, applyLowPassFilter: true);
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
